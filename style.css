@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(to right, #ddd6f3, #faaca8);
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    width: 80%;
+    border-radius: 50px;
+    border: 10px solid;
+    margin: 0 auto;
+    padding: 20px;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info{
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.instructions{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+
+
+.submission:hover {
+    background-color: rgb(230, 161, 215);
+    color: white;
+}
+
+.submission{
+    transition-duration: 0.4s;
+    color: black;
+    background-color: rgb(245, 239, 239);
+    border: 2px solid rgb(213, 181, 218);
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 15px 32px;
+   
+    
+}
+
+
+.top{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2%;
+    bottom: 0;
+    z-index: 10;
+    left: 15%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 8px #f8f4f4;
+   
+}
+
+.bottom{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    left: 15%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 8px #f8f4f4;
+}
+
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0.5;
+}
+
+.removebtn{
+    position: absolute;
+	top: 0;
+	z-index: 10;
+	left: 90%;
+	font-size: 30px;
+	cursor: pointer;
+	width: 60px;
+}
+
+#results{
+    margin-top: 10px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	margin-left: 40px;
+}
+
+.newDiv{
+    position: relative;
+	display: flex;
+	margin: 4px;
+	width: 100%;
+	height: 100%;
+	flex-basis: 45%;
+	overflow: hidden;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memegenerator.css" />
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div class="box">
+    <h1>The Memearator</h1>
+    <p class="description">Generate the most ultimate memes!</p>
+    <hr>
+    <form id="memegenerator">
+        <p>
+        <label class="instructions">Top Text:
+            <input class="info" type="text" name="toptext" required>
+        </label>
+        </p>
+        <p>
+        <label class="instructions">Bottom Text:
+            <input class="info" type="text" name="bottomtext" required>
+        </label>
+        </p>
+        <p>
+        <label class="instructions">Image:
+            <input class="info" type="url"  name="image" required>
+        </label>
+        </p>
+        <input type="Submit" value="Meme Away!" class="submission">
+    </div>
+    </form>
+    
+       
+    
+<section id="results"></section>
+ 
+    
+
+    <script src="memegenerator.js"></script>
+</body>
+</html>
